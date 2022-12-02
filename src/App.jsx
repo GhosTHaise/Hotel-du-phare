@@ -6,7 +6,7 @@ import {Navbar,Hero, Footer,Availabilities} from "./components"
 
 const App = () => (
     <div className='bg-white w-full overflow-hidden'>
-        <div className={`${styles.paddingX} ${styles.flexCenter} bg`}>
+        <div className={`${styles.paddingX} ${styles.flexCenter} `}>
             <div className={`${styles.boxWidth}`}>
                 <Navbar />
             </div>
@@ -17,8 +17,10 @@ const App = () => (
                 <Hero />
               </div>
         </div>  
-        <div className={`bg-white w-full ${styles.flexCenter}`}>
+        <div className={`bg-white ${styles.flexCenter} `}>
+            <div className={`sm:w-[1000px] w-full`}>
               <Availabilities />
+            </div>
         </div>
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
               <div className={`${styles.boxWidth}`}>
