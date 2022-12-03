@@ -4,7 +4,7 @@ import { home } from '../assets'
 const Hero = () => (
     <div>
         <section id="home" className={`flex md:flex-row flex-col min-h-[570px] h-[85vh] polygon-effect relative overflow-hidden`}>
-                    <img src={home} alt="home" className='w-[100%] h-[100%] w-[1] z-[1] object-cover absolute top-[0]' />
+                    <img src={home} alt="home" className='w-[100%] h-[100%]  z-[1] object-cover absolute top-[0]' />
                     <div className={`${styles.flexCenter} flex-col z-[2] h-[100%] sm:w-[50%]  w-[100%]  bg-[#0000007f]`}>
                             <div className={`${styles.flexStart} flex-col`}>
                                     <h1 className='text-white font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[100px] leading-[75px]'>
