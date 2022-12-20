@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './style';
 
 //COMPONENTS
-import {Navbar,Hero, Footer,Availabilities} from "./components"
+import {Navbar,Hero, Footer,Availabilities,About} from "./components"
 
 const App = () => (
     <div className='bg-white w-full overflow-hidden'>
@@ -20,6 +20,7 @@ const App = () => (
         <div className={`bg-white ${styles.flexCenter} `}>
             <div className={`sm:w-[1000px] w-full`}>
               <Availabilities />
+              <About />
             </div>
         </div>
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
