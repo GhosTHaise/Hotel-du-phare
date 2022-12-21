@@ -17,12 +17,16 @@ const App = () => (
                 <Hero />
               </div>
         </div>  
-        <div className={`bg-white ${styles.flexCenter} `}>
+        <div className={`bg-white ${styles.flexCenter}`}>
             <div className={`sm:w-[1000px] w-full`}>
               <Availabilities />
-              <About />
             </div>
         </div>
+        <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
+              <div className={`${styles.boxWidth}`}>
+                  <About />
+              </div>
+        </div>  
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
               <div className={`${styles.boxWidth}`}>
                 <Footer />
