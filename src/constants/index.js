@@ -1,4 +1,7 @@
-import { people01, facebook, instagram, linkedin, twitter, send, shield, star  } from "../assets";
+import { people01, facebook, instagram, linkedin, twitter, send, shield, star,
+  chambreSimple,
+  chambreDouble,
+  chambreDoublePrenium  } from "../assets";
 
 export const navLinks = [
   {
@@ -6,7 +9,7 @@ export const navLinks = [
     title: "Accueil",
   },
   {
-    id: "srésentation",
+    id: "présentation",
     title: "Présentation",
   },
   {
@@ -161,3 +164,23 @@ export const socialMedia = [
   },
 ];
 
+export const rooms_Suites = [
+  {
+      id : "chambreSimple",
+      title: "Chambre Simple",
+      price : "60 000",
+      link : chambreSimple    
+  },
+  {
+      id : "chambreDoublePrenium",
+      title: "Chambre Double Superieur",
+      price : "120 000",
+      link : chambreDoublePrenium    
+  },
+  {
+      id : "chambreDouble",
+      title: "Chambre Double",
+      price : "90 000",
+      link : chambreDouble      
+  }
+]

@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './style';
 
 //COMPONENTS
-import {Navbar,Hero, Footer,Availabilities,About} from "./components"
+import {Navbar,Hero, Footer,Availabilities,About, Services, RoomsSuites} from "./components"
 
 const App = () => (
     <div className='bg-white w-full overflow-hidden'>
@@ -25,6 +25,8 @@ const App = () => (
         <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
               <div className={`${styles.boxWidth}`}>
                   <About />
+                  <Services />
+                  <RoomsSuites />
               </div>
         </div>  
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>

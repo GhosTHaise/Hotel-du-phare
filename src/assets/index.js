@@ -12,6 +12,10 @@ import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import home from "./Home.jpg"
+import hotel1 from "./hotel1.jpg"
+import chambreSimple from "./Assets Hotel/chambreSimple.jpg"
+import chambreDouble from "./Assets Hotel/chambreDouble.jpg"
+import chambreDoublePrenium from "./Assets Hotel/chambreDoublePrenium.jpg"
 export {
   quotes,
   send,
@@ -26,5 +30,9 @@ export {
   linkedin,
   twitter,
   people01,
-  home
+  home,
+  hotel1,
+  chambreSimple,
+  chambreDouble,
+  chambreDoublePrenium
 };

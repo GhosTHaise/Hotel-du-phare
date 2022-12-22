@@ -13,7 +13,7 @@ const Hero = () => (
                                     <p className={`font-poppins font-normal text-white text-[18px] leading-[30.8px] max-w-[470px] mt-4`}>
                                         Séjourner dans l'un des hôtes parmis les plus luxieux de la côte Ouest de Madagascar.
                                     </p>
-                                    <a style={{border : "solid 1px #ffffff",padding : " 12px 20px 12px 20px "}} href='#presentation' className='text-white text-[20px]  py-4 rounded-full mt-10'>
+                                    <a style={{border : "solid 1px #ffffff",padding : " 12px 20px 12px 20px "}} href='#présentation' className='text-white text-[20px]  py-4 rounded-full mt-10'>
                                             En savoir plus
                                     </a>
                             </div>
