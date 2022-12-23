@@ -184,3 +184,42 @@ export const rooms_Suites = [
       link : chambreDouble      
   }
 ]
+
+export const services = [
+  {
+      id: "Litterie",
+      title : "Litterie de Qualité",
+      link : "",
+      description : ""
+  },
+  {
+      id: "Certification",
+      title : "Certification de confiance",
+      link : "",
+      description : ""
+  },
+  {
+      id: "WIFI",
+      title : "Zone WIFI",
+      link : "",
+      description : ""    
+  },
+  {
+      id: "Piscine",
+      title : "Piscine",
+      link : "",
+      description : ""
+  },
+  {
+      id: "Parking",
+      title : "Parking Privé",
+      link : "",
+      description : ""
+  },
+  {
+      id: "Séminaire",
+      title : "Salle de Séminaire",
+      link : "",
+      description : ""    
+  }
+]
