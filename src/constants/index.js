@@ -173,7 +173,7 @@ export const rooms_Suites = [
   },
   {
       id : "chambreDoublePrenium",
-      title: "Chambre Double Superieur",
+      title: "Chambre Double Supérieur",
       price : "120 000",
       link : chambreDoublePrenium    
   },
@@ -221,5 +221,36 @@ export const services = [
       title : "Salle de Séminaire",
       link : "",
       description : ""    
+  }
+]
+
+export const contacts = [
+  {
+    id : "tel",
+    title : "Téléphones",
+    descriptions : [
+      "+261 206 292 651",
+      "+261 207 223 500",
+      "+261 320 338 314"
+    ],
+    link : ""
+  },
+  {
+    id : "eml",
+    title : "Adresse E-Mail",
+    descriptions : [
+      "HotelPhare@gmail.com"
+    ],
+    link : ""
+  },
+  {
+    id : "emp",
+    title : "Emplacements",
+    descriptions : [
+      "Bd Marcoz La Corniche",
+      "BP529 Mahajanga",
+      "Madagascar"
+    ],
+    link : ""
   }
 ]

@@ -12,11 +12,11 @@ const Availabilities = () => {
                   <input type="date" className="mt-4 bg-[transparent] border py-2 px-4 outline-none text-[white] " />
             </div>
             <div className=" flex flex-col  px-4 py-2">
-                  <h4 className="font-poppins text-[16px] text-white">Adult :</h4>
+                  <h4 className="font-poppins text-[16px] text-white">Adulte(s) :</h4>
                   <input type="number" className="mt-4 bg-[transparent] border py-2 px-4 outline-none text-[white] " />
             </div>
             <div className="flex flex-col px-4 py-2">
-                  <h4 className="font-poppins text-[16px] text-white">Enfant :</h4>
+                  <h4 className="font-poppins text-[16px] text-white">Enfant(s) :</h4>
                   <input type="number" className="mt-4 bg-[transparent] border py-2 px-4 outline-none text-[white] " />
             </div>
         </div>
